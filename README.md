@@ -1,4 +1,4 @@
-# Web development track
+# To do list
 ## Features
 - Add new tasks to the list
 - Remove tasks from the list
