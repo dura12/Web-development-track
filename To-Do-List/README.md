@@ -2,6 +2,7 @@
 ## Features
 - Add new tasks to the list
 - Remove tasks from the list
+-edit tasks from the list
 ## usage
 1. Open the `index.html` file in your preferred web browser.
 2. Enter a task in the input field at the top of the page.
