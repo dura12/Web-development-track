@@ -4,7 +4,7 @@ A simple to do list build with Typescript
 ## Features
 - Add new tasks to the list
 - Remove tasks from the list
--edit tasks from the list
+- edit tasks from the list
 ## Getting Started
 1. Clone the repository:
 2. Navigate to the project directory:
