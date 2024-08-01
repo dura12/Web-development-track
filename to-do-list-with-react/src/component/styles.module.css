@@ -1,0 +1,48 @@
+.inputfield{
+    width : 20px;
+    background-color: rgb(235, 239, 240);
+    height : 50px;
+    box-shadow: 4ch;
+    border-radius: 10x;
+    border-color: aquamarine;
+}
+  
+.container {
+    max-width: 700px;
+    min-height: 540px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:#804377;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(23, 199, 32, 0.1);
+    word-break: break-all;
+    overflow-wrap: break-word;
+  
+  }
+
+  #btn {
+    width : 150px;
+    margin-left: 10px;
+    background-color:#995a99; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  #btn:hover {
+    background-color:purple; 
+  }
+  .addbtm{
+    float : right;
+    margin: 5px 0px 0px 5px;
+    width: 80px ;
+  }
+  li{
+    gap : 10px;
+  }
