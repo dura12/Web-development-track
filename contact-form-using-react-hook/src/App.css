@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+input[type = "text"],
+input[type = "email"] , 
+input[type = "message"]{
+  width : 500px;
+  height: 30px;
+  font-size: 1.25rem;
+  flex-wrap: wrap;
+  text-wrap: balance;
+  padding : 20px 20px;
+  margin-left: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px beige, -2px -2px 4px green;
+  background-color: #f1f1f1;
+  transition: rgb(11, 167, 167) 0.3s ease;
+  border-color: rgb(126, 125, 138);
+}
+
+.container {
+  width: 600px;
+  min-height: 600px;
+  margin: 12px auto;
+  padding: 2rem;
+  background-color: beige;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgb(126, 126, 131), -2px -2px 4px green;
+}
+
+
+.form-label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.55rem;
+  width: 100px;
+  color: black;
+}
+
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  display: block;
+  width: 200px;
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #405b79;
+}
+h1{
+  padding: 40px;
+  color: green ;
+}
