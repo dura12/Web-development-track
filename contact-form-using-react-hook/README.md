@@ -20,7 +20,7 @@ Start the development server:
 
 
 2. npm run dev
-The app will be running at http://localhost:3000.
+The app will be running at your local server.
 
 ## Usage
 The ContactForm component is the main entry point of the application. It uses the useForm hook from react-hook-form to handle form state and validation.
