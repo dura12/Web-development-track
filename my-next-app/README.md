@@ -7,8 +7,12 @@ job description component : displays the responsibility , age , about
 ## Screenshot
 
 Here is a screenshot of the Job Listing Dashboard:
-<img src = "first.png"/>
-<img src = "second.png"/>
+
+
+Here is a screenshot of the Job Listing Dashboard:
+![First Screenshot](first.png)
+![Second Screenshot](second.png)
+
 
 ## Installation
 Prerequisites
