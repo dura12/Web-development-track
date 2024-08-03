@@ -12,7 +12,7 @@ const DropDown = () => {
         <div className='flex items-center'>
           <label className='font-normal text-lg text-gray-500 mr-2'>Sort by:</label>
           <select  className='p-2  w-36 rounded-lg bg-white'>
-            <option value="default">Default</option>
+            <option value="default">Most Relevant</option>
             <option value="title">Title</option>
           </select>
         </div>
