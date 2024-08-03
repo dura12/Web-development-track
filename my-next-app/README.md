@@ -2,8 +2,10 @@
 This project is a React application that includes a card component resembling a job listing, complete with an avatar image, and a Job Listing Dashboard to display multiple such cards. Below are the details on how to set up, run, and use the project.
 
 ## Features
-Job Card Component: Displays job information, including an avatar image and dummy data.
-job description component : displays the responsibility , age , about
+Card Component: The Card component displays an individual card with title , location
+Description component : responsibility
+                        Description: Contains a brief description.
+                        Additional Info: Displays any other relevant information.
 ## Screenshot
 
 Here is a screenshot of the Job Listing Dashboard:
