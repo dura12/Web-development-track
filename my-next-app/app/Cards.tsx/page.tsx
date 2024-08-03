@@ -38,7 +38,7 @@ const UserPage =  () => {
     {users.map((user) => (
       <div
         onClick={() => route.push(`/description?id=${user.id}`)}
-        className="p-[24px] min-h-[266px] flex align-middle gap-3 hover:bg-gray-200  bg-white max-w-3xl  justify-items-center pt-8 pb-4 px-6 my-8
+        className="p-[24px] min-h-[266px] flex align-middle gap-3 hover:bg-gray-100  bg-white max-w-3xl  justify-items-center pt-8 pb-4 px-6 my-8
     rounded-3xl drop-shadow-md border border-gray-300"
       >
         <img className='p-2 w-[66px] h-[59px]' src={user.image} alt="" />
