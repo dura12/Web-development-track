@@ -9,32 +9,27 @@ job description component : displays the responsibility , age , about
 Here is a screenshot of the Job Listing Dashboard:
 
 
-Here is a screenshot of the Job Listing Dashboard:
 ![First Screenshot](./public/first.png)
 ![Second Screenshot](./public/second.png)
 
 
 ## Installation
 Prerequisites
-Node.js and npm or Yarn installed on your machine. You can download Node.js from nodejs.org.
-Getting Started
+Node.js and npm You can download Node.js from nodejs.org.
+nextjs framework
+## Getting Started
 Clone the Repository
 
 Navigate to the Project Directory
 
 cd job-listing-dashboard
 Install Dependencies
-
 Using npm:
 npm install
-or using Yarn:
-yarn install
-Usage
+
+## Usage
 Start the Development Server
 
 Using npm:
 npm start
-or using Yarn:
-
-yarn start
 This will start the development server and open the application in your default web browser 
