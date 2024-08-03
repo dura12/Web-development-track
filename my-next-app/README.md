@@ -10,8 +10,8 @@ Here is a screenshot of the Job Listing Dashboard:
 
 
 Here is a screenshot of the Job Listing Dashboard:
-![First Screenshot](first.png)
-![Second Screenshot](second.png)
+![First Screenshot](./public/first.png)
+![Second Screenshot](./public/second.png)
 
 
 ## Installation
