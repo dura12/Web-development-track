@@ -2,7 +2,7 @@ import React from 'react'
 
 const DropDown = () => {
   return (
-    <div className='grid gap-7 items-[left] m-20'>
+    <div className='grid gap-7 items-[left] m-10'>
     <div className='flex items-center justify-center'>
       <div className='flex flex-col md:flex-row justify-between items-center w-full lg:w-4/5'>
         <div className='flex flex-col mb-4 md:mb-0'>

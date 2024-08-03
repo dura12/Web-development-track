@@ -2,7 +2,7 @@
 import React from 'react'
 import job from "./jobs.json"
 import { useRouter } from 'next/navigation';
-import DropDown from "./dropdown"
+import DropDown from "./Heading"
 
 interface JobDescription {
     title: string;
@@ -33,12 +33,13 @@ const UserPage =  () => {
     return (
         <>
         
-        <div className='m-20 flex justify-center'>
+        <div className='m-10 flex justify-center'>
   <div className="w-[75%]">
     {users.map((user) => (
       <div
         onClick={() => route.push(`/description?id=${user.id}`)}
-        className="p-[24px] min-h-[266px] w- [60%] flex align-middle gap-3 hover:bg-gray-200 leading-[25.6px] mb-6 text-[20px] drop-shadow-2xl justify-between rounded-[30px] bg-slate-50"
+        className="p-[24px] min-h-[266px] flex align-middle gap-3 hover:bg-gray-200  bg-white max-w-3xl  justify-items-center pt-8 pb-4 px-6 my-8
+    rounded-3xl drop-shadow-md border border-gray-300"
       >
         <img className='p-2 w-[66px] h-[59px]' src={user.image} alt="" />
         <div>

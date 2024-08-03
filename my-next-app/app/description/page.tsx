@@ -50,9 +50,9 @@ const Description = () => {
             <div className="flex gap-4">
                     <div className="p-6 w-[100%] h-auto grid grid-cols-[3fr_1fr] gap-2  mb-6  text-[18px]  mr-15 ml-115 ">
                         <div className="mt-0 m-5 text-md space-y-6 block">
-                        <h1 className='font-serif ml-0 m-3 font-bold pb-1 bold text-3xl'>Description</h1>
+                        <h1 className='font-serif ml-0 m-3 font-extrabold  pb-1 bold text-3xl'>Description</h1>
                         <p>{user.description}</p>
-                            <h1 className='font-serif ml-0 m-2 font-bold pb-1 bold text-3xl'>Responsibility</h1>
+                            <h1 className='font-serif ml-0 m-2 font-extrabold pb-1 bold text-3xl'>Responsibility</h1>
                             <ul className="space-y-3 list-inside">
                               {user.responsibilities.map((item, index) => (
                                 <li key={index} className="flex items-center">
@@ -83,7 +83,7 @@ const Description = () => {
                         
                         </div>
                         <div className=" w-auto   rounded-md">
-                        <h1 className='font-serif m-2 ml-0 font-bold pb-1  bold text-3xl'> About</h1>
+                        <h1 className='font-serif m-2 ml-0 font-extrabold pb-1  bold text-3xl'> About</h1>
 
                               <div className='flex flex-col gap-[16px]'>
                                 <div className='flex min-w-[142px] min-h-[52px] gap-[16px] '>
@@ -126,7 +126,7 @@ const Description = () => {
                               <hr className="border-gray-400  border-dashed  drop-shadow-lg my-4 w-48"></hr>
                 
                             <div className="mt-3">
-                              <h1 className='font-serif ml-0 m-2 font-bold pb-1 bold text-3xl' >Catagories</h1>
+                              <h1 className='font-serif ml-0 m-2 font-extrabold pb-1 bold text-3xl' >Catagories</h1>
                               <div className="flex">
                               <p className=' m-2 p-1 w-auto text-sm bg-yellow-200 text-yellow-500 rounded-3xl '>{user.about.categories[0]}</p>
                               <p className='m-2 p-1  text-sm w-auto bg-green-200  text-green-500 rounded-3xl'>{user.about.categories[1]}</p>
@@ -136,7 +136,7 @@ const Description = () => {
                         <div className=""> 
                         <h1 className='font-serif m-2  font-bold pb-1 bold text-3xl' >Required Skills</h1>
                           <div className="flex">
-                          {user.about.required_skills.map((item ,index) => (<p className='m-2  p-1 text-sm w-auto h-10 bg-gray-200  text-blue-500 rounded-3xl'>{item}</p>))}
+                          {user.about.required_skills.map((item ,index) => (<p className='m-2  p-2 text-sm w-auto h-10 bg-gray-200  text-blue-500 rounded-3xl'>{item}</p>))}
                           </div>
                         </div>
 
