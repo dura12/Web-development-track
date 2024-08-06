@@ -20,30 +20,16 @@ Prerequisites
 Node.js and npm or Yarn installed on your machine. You can download Node.js from nodejs.org.
 Getting Started
 Installation
-Clone the repository:
+1 Clone the repository:
 
-'''git clone https://github.com/Emnet-tes/A2SV---Web-Learning-Tasks.git'''
-'''api-integration'''
-Install dependencies:
+```git clone https://github.com/Emnet-tes/A2SV---Web-Learning-Tasks.git```
+2 navigate to directory
+```cd api-integration```
+3 Install dependencies:
+```npm install```
 
-npm install
-# or
-yarn install
+4 Start the Development Server
+    Using npm:
+    ```npm start```
 
-npm intall json-server
-json-server --watch --port 4000 ./app/data.json
-Install Dependencies
-
-Using npm:
-npm install
-or using Yarn:
-yarn install
-Usage
-Start the Development Server
-
-Using npm:
-npm start
-or using Yarn:
-
-yarn start
 This will start the development server and open the application in your default web browser 
