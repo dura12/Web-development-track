@@ -18,18 +18,16 @@ description of each
 ## Installation
 Prerequisites
 Node.js and npm or Yarn installed on your machine. You can download Node.js from nodejs.org.
-Getting Started
-Installation
-1 Clone the repository:
+1. Clone the repository:
 
 ```git clone https://github.com/Emnet-tes/A2SV---Web-Learning-Tasks.git```
-2 navigate to directory
+2. navigate to directory
 ```cd api-integration```
-3 Install dependencies:
+3. Install dependencies:
 ```npm install```
 
-4 Start the Development Server
+4. Start the Development Server
     Using npm:
-    ```npm start```
+```npm start```
 
 This will start the development server and open the application in your default web browser 
