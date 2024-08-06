@@ -10,7 +10,7 @@ Here is a screenshot of the Job Listing Dashboard:
 
 
 Here is a screenshot of the Job Listing Dashboard:
-![First Screenshot](./public/first.png)
+![First Screenshot](./public/firs.png)
 description of each 
 ![Second Screenshot](./public/second.png)
 
